@@ -1,5 +1,35 @@
-This project focused on developing an application to retrieve and match relevant scientific articles based on a given query.
+# Information Retrieval and Text Matching
 
-The information retrieval and text-matching system successfully identified and retrieved relevant scientific articles based on user queries. The project demonstrated the effectiveness of combining various NLP techniques for accurate information retrieval. It also highlighted the importance of text pre-processing and query matching in developing robust retrieval systems.
+This repository contains an implementation of information retrieval and text-matching techniques using Natural Language Processing (NLP). The project explores methodologies to extract relevant information from textual data and perform text similarity matching for various use cases.
 
-This project provided valuable hands-on experience in applying NLP concepts and algorithms to real-world problems. By leveraging existing NLP tools and techniques, I developed an effective information retrieval system. The project also laid the groundwork for more advanced applications, such as a question-answering system, by demonstrating how to decompose complex NLP problems into manageable sub-problems
+## Overview
+This project addresses the challenges in retrieving relevant information from textual datasets and measuring the semantic similarity between text segments. With the increasing volume of unstructured text data, effective information retrieval and text-matching techniques are essential for applications such as search engines, recommendation systems, and document classification.
+
+Key highlights of this project include:
+- Preprocessing textual data using tokenization, stop-word removal, and vectorization.
+- Implementing similarity measures such as cosine similarity.
+- Exploring embedding techniques like TF-IDF and word embeddings for enhanced text representation.
+- Demonstrating applications of text matching in query-document retrieval and duplicate text detection.
+
+This project serves as a foundation for understanding the principles of text processing and retrieval, with practical examples to illustrate its applications.
+
+## Features
+- **Text Preprocessing:** Includes steps like tokenization, lemmatization, and vectorization for structured text representation.
+- **Similarity Metrics:** Implements cosine similarity, Jaccard index, and other measures for text comparison.
+- **Embedding Techniques:** Utilizes TF-IDF and word embeddings for capturing semantic relationships.
+- **Practical Use Cases:** Demonstrates query-document matching and duplicate text detection scenarios.
+
+## Dataset
+The project works with both custom and publicly available textual datasets. Ensure the dataset is formatted appropriately for preprocessing and analysis. Example datasets for testing can be downloaded from sources like Kaggle or UCI Machine Learning Repository.
+
+## Results
+The project demonstrates the successful implementation of:
+- Text preprocessing pipelines.
+- Similarity measurement using various metrics.
+- Improved text-matching performance with advanced embeddings.
+
+Detailed visualizations and evaluation metrics are included in the notebook.
+
+## Acknowledgments
+- This project was done during my masters degree at the University of Adelaide which was included in coursework.
+
